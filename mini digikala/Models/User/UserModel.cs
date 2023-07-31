@@ -12,17 +12,17 @@ namespace mini_digikala.Models.User
         public int Mobile { get; set; }
         #endregion
 
-        #region Methods
-        public void AddUser(UserModel user)
-        {
-            //Add user to data base
-        }
+        //#region Methods
+        //public void AddUser(UserModel user)
+        //{
+        //    //Add user to data base
+        //}
 
-        public void ChargeWallet(int price /* همینطوری */)
-        {
-            //Charge User Wallet
-        }
+        //public void ChargeWallet(int price /* همینطوری */)
+        //{
+        //    //Charge User Wallet
+        //}
         
-        #endregion
+        //#endregion
     }
 }

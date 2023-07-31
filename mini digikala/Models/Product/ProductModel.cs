@@ -10,21 +10,21 @@
         public int Price { get; set; }
         #endregion
 
-        #region Methods
-        public void AddProduct(ProductModel product)
-        {
-            //Add Product
-        }
+        //#region Methods
+        //public void AddProduct(ProductModel product)
+        //{
+        //    //Add Product
+        //}
 
-        public void BuyProduct(int id /* همینطوری */)
-        {
-            //BuyProduct Product
-        }
-        public void AddToFavorite(int productId /* همینطوری */)
-        {
-            //Add to favorite
-        }
+        //public void BuyProduct(int id /* همینطوری */)
+        //{
+        //    //BuyProduct Product
+        //}
+        //public void AddToFavorite(int productId /* همینطوری */)
+        //{
+        //    //Add to favorite
+        //}
 
-        #endregion
+        //#endregion
     }
 }

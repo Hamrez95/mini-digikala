@@ -1,8 +1,14 @@
-﻿namespace mini_digikala.Services.Interfaces
+﻿using mini_digikala.Models.User;
+
+namespace mini_digikala.Services.Interfaces
 {
     public interface IUserInterface
     {
-        void RegisterUser();
-        void ChargeWallet();
+        #region Method
+        void AddUser(UserModel user);
+        void ChargeWallet(int price /* همینطوری */);
+        #endregion
+
+
     }
 }

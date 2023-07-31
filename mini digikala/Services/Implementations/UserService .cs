@@ -5,15 +5,6 @@ namespace mini_digikala.Services.Implementations
 {
     public class UserService : IUserInterface
     {
-        public void ChargeWallet()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void RegisterUser()
-        {
-            throw new NotImplementedException();
-        }
         #region Methods
         public void AddUser(UserModel user)
         {
@@ -24,9 +15,5 @@ namespace mini_digikala.Services.Implementations
         {
             //Charge User Wallet
         }
-
-       
-
-        #endregion
     }
 }
