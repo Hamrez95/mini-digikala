@@ -7,10 +7,10 @@ namespace mini_digikala.Services.Implementations
     {
         
         #region CustomMethods
-        public void AddUser(UserModel user)
-        {
-            //Add user to data base
-        }
+        //public void AddUser(UserModel user)
+        //{
+        //    //Add user to data base
+        //}
 
         public void ChargeWallet(int price /* همینطوری */)
         {
@@ -20,7 +20,7 @@ namespace mini_digikala.Services.Implementations
 
         #endregion
 
-        #region Methods
+        #region Generic Methods
         public void AddItem(UserModel hezarChehreh)
         {
             throw new NotImplementedException();

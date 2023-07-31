@@ -5,7 +5,7 @@ namespace mini_digikala.Services.Interfaces
     public interface IProductInterface
     {
         #region Methods
-        void AddProduct(ProductModel product);
+        //void AddProduct(ProductModel product);
 
         void BuyProduct(int id /* همینطوری */);
 

@@ -7,10 +7,10 @@ namespace mini_digikala.Services.Implementations
 
     {
         #region CustomMethods
-        public void AddBlog(BlogModel blog)
-        {
-            //Add blog to data base
-        }
+        //public void AddBlog(BlogModel blog)
+        //{
+        //    //Add blog to data base
+        //}
 
         public void AddComment(string CommentText /* همینطوری */)
         {
@@ -26,7 +26,7 @@ namespace mini_digikala.Services.Implementations
 
         #endregion
 
-        #region Methods
+        #region Generic Methods
         public void AddItem(BlogModel hezarChehreh)
         {
             throw new NotImplementedException();

@@ -6,10 +6,10 @@ namespace mini_digikala.Services.Implementations
     public class ProductService : IProductInterface ,IGeneralInterface<ProductModel>
     {
         #region CustomMethods
-        public void AddProduct(ProductModel product)
-        {
-            //Add Product
-        }
+        //public void AddProduct(ProductModel product)
+        //{
+        //    //Add Product
+        //}
 
         public void BuyProduct(int id /* همینطوری */)
         {
@@ -24,7 +24,7 @@ namespace mini_digikala.Services.Implementations
 
         #endregion
 
-        #region Method
+        #region Generic Methods
         public void AddItem(ProductModel hezarChehreh)
         {
             throw new NotImplementedException();

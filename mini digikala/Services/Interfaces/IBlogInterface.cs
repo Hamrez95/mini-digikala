@@ -5,7 +5,7 @@ namespace mini_digikala.Services.Interfaces
     public interface IBlogInterface
     {
         #region Methods
-        void AddBlog(BlogModel blog);
+        //void AddBlog(BlogModel blog);
 
         void AddComment(string CommentText /* همینطوری */);
 
