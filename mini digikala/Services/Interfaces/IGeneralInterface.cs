@@ -12,10 +12,10 @@ using System.Threading.Tasks;
 
 namespace mini_digikala.Services.Interfaces
 {
-    public interface IGeneralInterface<HezarChehreh>
+    public interface IGeneralInterface<T>
     {
         #region Add
-        void AddItem/*<HezarChehreh>*/(HezarChehreh hezarChehreh);
+        void AddItem/*<HezarChehreh>*/(T t);
 
 
         //void AddItem(UserModel user);
@@ -24,7 +24,7 @@ namespace mini_digikala.Services.Interfaces
         #endregion
 
         #region Edit
-        void EditItem/*<HezarChehreh>*/(HezarChehreh hezarChehreh);
+        void EditItem/*<HezarChehreh>*/(T t);
 
         //void EditItem(UserModel user);
         //void EditItem(ProductModel product);
@@ -32,7 +32,7 @@ namespace mini_digikala.Services.Interfaces
         #endregion
 
         #region Remove
-        void RemoveItem/*<HezarChehreh>*/(HezarChehreh hezarChehreh);
+        void RemoveItem/*<HezarChehreh>*/(T t);
 
         //void RemoveItem(UserModel user);
         //void RemoveItem(ProductModel product);
