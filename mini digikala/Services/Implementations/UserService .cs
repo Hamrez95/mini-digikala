@@ -3,9 +3,10 @@ using mini_digikala.Services.Interfaces;
 
 namespace mini_digikala.Services.Implementations
 {
-    public class UserService : IUserInterface
+    public class UserService : IUserInterface , IGeneralInterface<UserModel>
     {
-        #region Methods
+        
+        #region CustomMethods
         public void AddUser(UserModel user)
         {
             //Add user to data base
@@ -15,5 +16,24 @@ namespace mini_digikala.Services.Implementations
         {
             //Charge User Wallet
         }
+
+
+        #endregion
+
+        #region Methods
+        public void AddItem(UserModel hezarChehreh)
+        {
+            throw new NotImplementedException();
+        }
+        public void EditItem(UserModel hezarChehreh)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveItem(UserModel hezarChehreh)
+        {
+            throw new NotImplementedException();
+        }
+        #endregion
     }
 }

@@ -3,10 +3,10 @@ using mini_digikala.Services.Interfaces;
 
 namespace mini_digikala.Services.Implementations
 {
-    public class BlogService : IBlogInterface
+    public class BlogService : IBlogInterface , IGeneralInterface<BlogModel>
 
     {
-        #region Methods
+        #region CustomMethods
         public void AddBlog(BlogModel blog)
         {
             //Add blog to data base
@@ -16,11 +16,31 @@ namespace mini_digikala.Services.Implementations
         {
             //Add comment Text to the data base
         }
+
+        
+
         public void ShareBlog(string socialMediaName /* همینطوری */)
         {
             //share blog with socialMedia 
         }
 
+        #endregion
+
+        #region Methods
+        public void AddItem(BlogModel hezarChehreh)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void EditItem(BlogModel hezarChehreh)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveItem(BlogModel hezarChehreh)
+        {
+            throw new NotImplementedException();
+        }
         #endregion
     }
 }

@@ -3,9 +3,9 @@ using mini_digikala.Services.Interfaces;
 
 namespace mini_digikala.Services.Implementations
 {
-    public class ProductService : IProductInterface
+    public class ProductService : IProductInterface ,IGeneralInterface<ProductModel>
     {
-        #region Methods
+        #region CustomMethods
         public void AddProduct(ProductModel product)
         {
             //Add Product
@@ -20,6 +20,25 @@ namespace mini_digikala.Services.Implementations
             //Add to favorite
         }
 
+
+
+        #endregion
+
+        #region Method
+        public void AddItem(ProductModel hezarChehreh)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void EditItem(ProductModel hezarChehreh)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveItem(ProductModel hezarChehreh)
+        {
+            throw new NotImplementedException();
+        }
         #endregion
     }
 }
